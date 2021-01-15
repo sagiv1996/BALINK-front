@@ -1,0 +1,54 @@
+{
+    "form": {
+        "personal": {
+            "firstName": "first name",
+            "lastName": "last name",
+            "title": "title"
+        },
+        "address": {
+            "country": "country",
+            "city": "city",
+            "street": "street"
+        },
+        "contactability": {
+            "email": "email",
+            "phone": "phone (+972)",
+            "optin": "optin"
+        },
+        "rules":{
+            "empty": "required field",
+            "email": "email no validate",
+            "phone": "phone no validate"
+        }
+    },
+    "button":{
+        "back": "back",
+        "next": "next",
+        "close": "close"
+    },
+    "alert":{
+        "success": {
+            "title": "Success message",
+        "text": "This is a message of success!"
+        },
+        "error":{
+            "title": "error message",
+        "text": "This is a message of errors!"
+        }
+        
+    },
+    "globalString":{
+        "personal": {
+            "title": "personal",
+            "text": "personal infomartion"
+        },
+        "address":{
+            "title": "address",
+            "text": "address infomartion"
+        },
+        "contactability":{
+            "title": "contactability",
+            "text": "contactability information"
+        }
+    }
+}

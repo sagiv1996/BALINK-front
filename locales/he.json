@@ -1,0 +1,53 @@
+{
+    "form": {
+        "personal": {
+            "firstName": "שם פרטי",
+            "lastName": "שם משפחה",
+            "title": "כינוי"
+        },
+        "address": {
+            "country": "ארץ",
+            "city": "עיר",
+            "street": "רחוב"
+        },
+        "contactability": {
+            "email": "איימל",
+            "phone": "טלפון (+972)",
+            "optin": "אפשרות"
+        },
+        "rules": {
+            "empty": "שדה חובה",
+            "email": "כתובת מייל שגויה",
+            "phone": "מספר לא תקין"
+        }
+    },
+    "button": {
+        "back": "הקודם",
+        "next": "הבא",
+        "close": "סגור"
+    },
+    "alert": {
+        "success": {
+            "title": "הודעת הצלחה",
+            "text": "כל הכבוד הטופס עבד בהצלחה"
+        },
+        "error": {
+            "title": "שגיאה",
+            "text": "השרת החזיר שגיאה. נראה שחלק מהמידע חסר"
+        }
+    },
+    "globalString": {
+        "personal": {
+            "title": "אישי",
+            "text": "מידע אישי"
+        },
+        "address": {
+            "title": "כתובת",
+            "text": "מידע על כתובת"
+        },
+        "contactability": {
+            "title": "קשר",
+            "text": "מידע על יצירת קשר"
+        }
+    }
+}
