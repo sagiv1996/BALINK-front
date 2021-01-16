@@ -1,5 +1,5 @@
 <template>
-  <div id="warper">
+  <div>
     <div class="bars">
       <ul class="ul">
         <li :class="{ end: steper > 1, active: steper === 1 }">
@@ -255,7 +255,7 @@
 export default {
   //load list countries from node.js
   async asyncData({ $axios }) {
-    const listCountries = await $axios.$get("http://localhost:8080/api");
+    const listCountries = await $axios.$get();
     return { listCountries };
   },
   data: () => ({
@@ -440,9 +440,6 @@ fieldset {
   text-align: center;
   color: rgb(54, 88, 54);
 }
-#warper {
-  width: 100%;
-}
 .err {
   color: red;
 }
@@ -505,6 +502,12 @@ fieldset {
   &:disabled {
     background-color: grey;
     transition: 1s;
+  }
+  &:focus{
+    border-radius: 25px;;
+  }
+  &:active{
+    border-radius: 25px;;
   }
 }
 </style>

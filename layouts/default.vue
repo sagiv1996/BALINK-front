@@ -1,10 +1,11 @@
 <template>
   <v-app>
     <v-navigation-drawer
+    app
     v-model="drawer"
-      app
       :right="$vuetify.rtl"
-    >
+      expand-on-hover
+      >
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
